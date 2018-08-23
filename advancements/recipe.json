@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:book"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.recipe.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.recipe.description"
+		}
+	},
+	"parent": "rf:rfcraft",
+	"criteria": {
+		"book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{id:\"rf:recipe_book\"}"
+					}
+				]
+			}
+		}
+	}
+}

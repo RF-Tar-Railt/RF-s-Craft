@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_planks"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.wood.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.wood.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:recipe",
+	"criteria": {
+		"wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:oak_log"
+					}
+				]
+			}
+		}
+	}
+}

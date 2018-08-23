@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_axe",
+			"nbt": "{id:\"minecraft:golden_axe\",Damage:28}"
+		},
+		"title": {
+			"translate": "advancements.rfcraft.gd.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.gd.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:stone_desk",
+	"criteria": {
+		"glass_desk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:bat_spawn_egg",
+						"nbt" :"{id:\"rf:glass_desk\"}"
+					}
+				]
+			}
+		}
+	}
+}

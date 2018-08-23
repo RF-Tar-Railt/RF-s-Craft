@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_hoe",
+			"nbt": "{id:\"minecraft:golden_hoe\",Damage:12}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.sl.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.sl.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:iron",
+	"criteria": {
+		"street_light": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:squid_spawn_egg",
+						"nbt" :"{id:\"rf:street_light\"}"
+					}
+				]
+			}
+		}
+	}
+}

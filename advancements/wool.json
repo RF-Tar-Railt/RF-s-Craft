@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:white_wool"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.wool.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.wool.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:recipe",
+	"criteria": {
+		"wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:white_wool"
+					}
+				]
+			}
+		}
+	}
+}

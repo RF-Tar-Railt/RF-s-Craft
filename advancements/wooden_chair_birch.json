@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_hoe",
+			"nbt":"{id:\"minecraft:golden_hoe\",Damage:29}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.wcb.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.wcb.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:wooden_chair_oak",
+	"criteria": {
+		"wooden_chair_birch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:bat_spawn_egg",
+						"nbt" :"{id:\"rf:wooden_chair_birch\"}"
+					}
+				]
+			}
+		}
+	}
+}

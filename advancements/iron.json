@@ -1,0 +1,35 @@
+{
+  "parent": "rf:recipe",
+   "display": {
+	 "icon": {
+	   "item": "minecraft:iron_block"
+	 },
+	 "title":{
+		"translate": "advancements.rfcraft.iron.title"
+	 },
+		"description": {
+		  "translate": "advancements.rfcraft.iron.description"
+	 },
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": true,
+     "hidden": false
+  },
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron"
+    ]
+  ]
+}

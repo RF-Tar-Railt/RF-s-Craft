@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_hoe",
+			"nbt":"{id:\"minecraft:golden_hoe\",Damage:2}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.dw.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.dw.description"
+		}
+	},
+	"parent": "rf:wood",
+	"criteria": {
+		"wooden_desk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:bat_spawn_egg",
+						"nbt" :"{id:\"rf:desk_wooden\"}"
+					}
+				]
+			}
+		}
+	}
+}

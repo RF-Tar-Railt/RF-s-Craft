@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_hoe",
+			"nbt": "{id:\"minecraft:golden_hoe\",Damage:26}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.mim.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.mim.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:redstone/root",
+	"criteria": {
+		"mine_machine": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:bat_spawn_egg",
+						"nbt" :"{id:\"rf:mine_machine\"}"
+					}
+				]
+			}
+		}
+	}
+}

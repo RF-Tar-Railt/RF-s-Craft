@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot_on_a_stick",
+			"nbt": "{id:\"minecraft:carrot_on_a_stick\",Damage:1}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.tvr.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.tvr.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:redstone/tv",
+	"criteria": {
+		"tv_remote": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:carrot_on_a_stick",
+						"nbt" :"{id:\"rf:tv_remote\"}"
+					}
+				]
+			}
+		}
+	}
+}

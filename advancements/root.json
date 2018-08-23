@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_hoe",
+			"nbt":"{id:\"minecraft:golden_hoe\",Damage:1}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.root.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.root.description"
+		},
+		"background": "minecraft:textures/block/birch_planks.png"
+	},
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

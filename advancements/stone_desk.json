@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_hoe",
+			"nbt": "{id:\"minecraft:golden_hoe\",Damage:3}"
+		},
+		"title": {
+			"translate": "advancements.rfcraft.ds.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.ds.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:wooden_desk",
+	"criteria": {
+		"stone_desk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:bat_spawn_egg",
+						"nbt" :"{id:\"rf:desk_stone\"}"
+					}
+				]
+			}
+		}
+	}
+}
