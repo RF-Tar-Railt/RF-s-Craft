@@ -1,0 +1,1 @@
+execute as @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:cobblestone"}}] at @s run kill @s

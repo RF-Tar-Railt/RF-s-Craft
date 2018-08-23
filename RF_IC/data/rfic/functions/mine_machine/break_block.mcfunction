@@ -1,0 +1,13 @@
+execute if block ~ ~ ~ iron_ore run give @a iron_ore 1
+execute if block ~ ~ ~ gold_ore run give @a gold_ore 1
+execute if block ~ ~ ~ coal_ore run give @a coal 1
+execute if block ~ ~ ~ diamond_ore run give @a diamond 2
+execute if block ~ ~ ~ redstone_ore run give @a redstone 4
+execute if block ~ ~ ~ emerald_ore run give @a emerald_ore 1
+execute if block ~ ~ ~ stone run give @a cobblestone 1
+execute if block ~ ~ ~ dirt run give @a dirt 1
+execute if block ~ ~ ~ grass_block run give @a dirt 1
+execute if block ~ ~ ~ granite run give @a granite 1
+execute if block ~ ~ ~ diorite run give @a diorite 1
+execute if block ~ ~ ~ andesite run give @a andesite 1
+execute if block ~ ~ ~ gravel run give @a gravel 1

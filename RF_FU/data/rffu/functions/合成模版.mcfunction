@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ minecraft:dropper[facing=up,triggered=false]{CustomName:"{\"text\":\"RFCrafting_table\"}",Items:[{id:"minecraft:",Count:4b,Slot:4b}]} run data merge block ~ ~-1 ~ {Items:[{id:"minecraft:_spawn_egg",Count:1b,Slot:4b,tag:{Enchantments:[{id:"minecraft:unbreaking",lvl:10}],EntityTag:{Silent:1b,Tags:["testpoint"]},display:{Name:"{\"text\":\"\"}"}}}]}
