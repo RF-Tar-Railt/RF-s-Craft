@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.zcr.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.zcr.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	  "rewards": {
+    "experience": 10
+  },
+	"parent": "rf:redstone/refrigerator",
+	"criteria": {
+		"freeze_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:carrot",
+            "nbt" :"{id:\"rf:freeze_carrot\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "freeze_carrot"
+    ]
+  ] 
+}

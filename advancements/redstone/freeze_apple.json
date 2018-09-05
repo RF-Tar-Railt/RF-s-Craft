@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:apple"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.zap.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.zap.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	  "rewards": {
+    "experience": 10
+  },
+	"parent": "rf:redstone/refrigerator",
+	"criteria": {
+		"freeze_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:apple",
+            "nbt" :"{id:\"rf:freeze_apple\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "freeze_apple"
+    ]
+  ] 
+}

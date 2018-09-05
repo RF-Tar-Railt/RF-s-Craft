@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carrot"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.bcr.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.bcr.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	  "rewards": {
+    "experience": 10
+  },
+	"parent": "rf:redstone/microwave_oven",
+	"criteria": {
+		"baked_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:carrot",
+            "nbt" :"{id:\"rf:baked_carrot\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "baked_carrot"
+    ]
+  ] 
+}
