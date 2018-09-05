@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_shovel",
+			"nbt":"{id:\"minecraft:golden_shovel\",Damage:1}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.bos.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.bos.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:wood",
+	"criteria": {
+		"bookshelf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:bat_spawn_egg",
+						"nbt" :"{id:\"rf:bookshelf\"}"
+					}
+				]
+			}
+		}
+	}
+}
