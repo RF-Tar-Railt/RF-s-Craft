@@ -46,10 +46,9 @@ execute as @e[tag=mine_machine] at @s if block ^-1 ^ ^ air run tag @s add off_mi
 execute as @e[tag=mine_machine,tag=on_mim] at @s run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:golden_hoe",tag:{Damage:27},Count:1b}]}
 execute as @e[tag=mine_machine,tag=off_mim] at @s run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:golden_hoe",tag:{Damage:26},Count:1b}]}
 
-execute as @e[tag=mine_machine,tag=on_mim] at @s run execute as @e[tag=drill,sort=nearest,limit=1] run tag @s add ore
-execute as @e[tag=mine_machine,tag=off_mim] at @s run execute as @e[tag=drill,sort=nearest,limit=1] run tag @s remove ore
-execute as @e[tag=mine_machine,tag=no_mim] at @s run execute as @e[tag=drill,sort=nearest,limit=1] run kill @s
-execute as @e[tag=mine_machine,tag=off_mim] at @s run execute as @e[tag=drill,sort=nearest,limit=1] run tag @s remove ore
+execute as @e[tag=mine_machine,tag=on_mim] at @s as @e[tag=test,sort=nearest,limit=1] positioned ~-4 ~2 ~-4 run tag @e[tag=drill,dx=8,dy=-255,dz=8,limit=1] add ore
+execute as @e[tag=mine_machine,tag=off_mim] at @s as @e[tag=test,sort=nearest,limit=1] positioned ~-4 ~2 ~-4 run tag @e[tag=drill,sort=nearest,limit=1] remove ore
+execute as @e[tag=mine_machine,tag=no_mim] at @s as @e[tag=test,sort=nearest,limit=1] positioned ~-4 ~2 ~-4 run kill @e[tag=drill,sort=nearest,limit=1]
 
 execute as @e[tag=mine_machine] at @s run tag @s remove on_mim
 execute as @e[tag=mine_machine] at @s run tag @s remove off_mim
