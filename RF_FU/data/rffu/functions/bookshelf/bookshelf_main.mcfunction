@@ -1,0 +1,5 @@
+execute as @e[tag=shelf1] at @s if entity @p[nbt={SelectedItem:{id:"minecraft:book"}}] run data merge entity @s {DisabledSlots:30}
+execute as @e[tag=shelf1] at @s if entity @p[nbt={SelectedItem:{id:"minecraft:written_book"}}] run data merge entity @s {DisabledSlots:30}
+execute as @e[tag=shelf1] at @s if entity @p[nbt={SelectedItem:{id:"minecraft:enchanted_book"}}] run data merge entity @s {DisabledSlots:30}
+execute as @e[tag=shelf1] at @s if entity @p[nbt={SelectedItem:{id:"minecraft:air"}}] run data merge entity @s {DisabledSlots:30}
+execute as @e[tag=shelf1] at @s unless entity @p[nbt={SelectedItem:{id:"minecraft:book"}}] unless entity @p[nbt={SelectedItem:{id:"minecraft:written_book"}}] unless entity @p[nbt={SelectedItem:{id:"minecraft:enchanted_book"}}] run data merge entity @s {DisabledSlots:31}
