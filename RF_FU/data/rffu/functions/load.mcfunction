@@ -1,0 +1,12 @@
+scoreboard objectives add click_basin minecraft.custom:minecraft.talked_to_villager
+scoreboard objectives add MicItm dummy
+scoreboard objectives add sec dummy
+scoreboard objectives add tick dummy
+scoreboard objectives add fritick dummy
+scoreboard objectives add frisec dummy
+scoreboard objectives add frzsec dummy
+scoreboard objectives add frztick dummy
+scoreboard objectives add icing dummy
+scoreboard objectives add FrzItm dummy
+scoreboard objectives add FrzCount dummy
+scoreboard objectives add tv minecraft.used:minecraft.carrot_on_a_stick

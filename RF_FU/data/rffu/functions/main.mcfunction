@@ -17,5 +17,8 @@ function rffu:tv/tv_main
 function rffu:refrigerator/refrigerator
 #洗漱台
 function rffu:basin/basin_main
+#书架
+function rffu:bookshelf/bookshelf_main
 
-
+function rffu:street_light/main
+function rffu:desk/main

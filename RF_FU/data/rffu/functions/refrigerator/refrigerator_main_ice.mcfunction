@@ -1,7 +1,5 @@
 execute as @e[scores={icing=1..}] at @s run execute as @p at @s run tag @s add icing
 
-scoreboard objectives add fritick dummy
-scoreboard objectives add frisec dummy
 scoreboard players add @a[tag=icing] fritick 1
 scoreboard players add @a[tag=icing,scores={fritick=20..}] frisec 1
 scoreboard players set @a[tag=icing,scores={fritick=20..}] fritick 0

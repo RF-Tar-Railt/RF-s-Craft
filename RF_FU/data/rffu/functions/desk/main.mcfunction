@@ -1,0 +1,2 @@
+execute as @a at @s as @e[type=armor_stand,tag=DESK,distance=..6] at @s if block ~ ~ ~ air run kill @s
+execute as @a at @s as @e[type=item,distance=..3,nbt={Item:{tag:{id:"rf:remove"}}}] at @s as @e[tag=DESK,name=testpoint,distance=..2] at @s run fill ~ ~ ~ ~ ~ ~ minecraft:air
