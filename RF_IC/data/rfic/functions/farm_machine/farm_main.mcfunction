@@ -1,7 +1,3 @@
-scoreboard objectives add ftick dummy
-scoreboard objectives add fsec dummy
-scoreboard objectives add fsec1 dummy
-
 scoreboard players add @e[tag=hoing] ftick 1
 scoreboard players add @e[tag=hoing,scores={ftick=10..}] fsec 1
 scoreboard players add @e[tag=hoing,scores={fsec=9,ftick=5}] fsec1 1

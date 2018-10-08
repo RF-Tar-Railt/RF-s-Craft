@@ -1,0 +1,11 @@
+function rfic:power/farm
+function rfic:power/mine
+function rfic:power/shatter
+function rfic:power/crop
+function rfic:power/cprs
+function rfic:power/battery/low
+function rfic:power/battery/middle
+function rfic:power/battery/high
+function rfic:power/generator/redstone
+function rfic:power/generator/light
+function rfic:power/generator/geo_energy

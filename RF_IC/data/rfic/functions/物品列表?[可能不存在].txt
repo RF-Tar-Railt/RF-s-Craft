@@ -1,0 +1,25 @@
+镍锭 nikcel
+铅锭 lead
+锌锭 zinc
+锡锭 tin
+钨锭 tungsten
+
+硫粉 sulphur
+硝石 niter
+硅粉 silicon
+
+铁矿--[粉碎机]-->镍粉、铁粉、石头
+金矿--[粉碎机]-->石英粉、金粉、石头
+下界石英矿--[粉碎机]-->铅粉、石英、石头
+下界石英--[粉碎机]-->铅粉、石英粉
+青金石矿--[粉碎机]-->青金石、锡粉、石头
+红石矿--[粉碎机]-->红石粉、石头
+煤矿--[粉碎机]-->硫粉、煤、石头
+煤--[粉碎机]-->无烟煤、硫粉
+钻石矿--[粉碎机]-->钻石、石头
+绿宝石矿--[粉碎机]-->绿宝石、石头
+砂砾--[粉碎机]-->燧石、硝石、锌粉、钨粉、铅粉、锡粉
+
+锌矿/give @p minecraft:player_head{display:{Name:"{\"text\":\"Lead Ore\"}"},SkullOwner:{Id:"10e77783-3d82-4769-acc2-021cd361c730",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE1MDZhNjI3MDc2ZTk5YzllZTRkODhkNzI5YzQ2ODcxZTMxNTdhZWI3ZjExNWVmY2I3ZjM0MjIxNjMyNTUifX19"}]}}} 1
+铜矿/give @p minecraft:player_head{display:{Name:"{\"text\":\"Copper Ore\"}"},SkullOwner:{Id:"75cfe2ed-a4c1-48e0-b461-a85288823119",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBjNzliMThmOGEwYmQ2ZGM4ZmE4MGU0NjRiMmYyZWViM2E4NzdmY2VlYjZhMjc2Mjg0ZTE4YWRjM2NhNmE2In19fQ=="}]}}} 1
+锡矿/give @p minecraft:player_head{display:{Name:"{\"text\":\"Tin Ore\"}"},SkullOwner:{Id:"aeff2c70-cdf6-4c69-9415-c61e3a1b86e3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQzOWFlNWE4ZDUzODNkNjY4Y2Q1NGJlYzhmOThjYzZjODI2NTk5YWRmNzlkNmJiNjlmNTFiMGU4YzQ1OGIifX19"}]}}} 1

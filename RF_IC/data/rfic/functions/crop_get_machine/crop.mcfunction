@@ -1,0 +1,9 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:wheat"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:potato"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:carrot"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:beetroot"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:mushroom"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:apple"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:wheat_seeds"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:beetroot_seeds"}}] run tag @s add crop
+execute as @e[type=item,nbt={Item:{id:"minecraft:sugar_cane"}}] run tag @s add crop

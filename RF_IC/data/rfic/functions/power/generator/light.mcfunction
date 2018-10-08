@@ -1,0 +1,15 @@
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=1] run function rfic:power/generator/light/1
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=2] run function rfic:power/generator/light/1
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=3] run function rfic:power/generator/light/1
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=4] run function rfic:power/generator/light/2
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=5] run function rfic:power/generator/light/2
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=6] run function rfic:power/generator/light/2
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=7] run function rfic:power/generator/light/3
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=8] run function rfic:power/generator/light/3
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=9] run function rfic:power/generator/light/3
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=10] run function rfic:power/generator/light/4
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=11] run function rfic:power/generator/light/4
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=12] run function rfic:power/generator/light/4
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=13] run function rfic:power/generator/light/5
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=14] run function rfic:power/generator/light/5
+execute as @e[tag=generator,tag=light] at @s if block ~ ~ ~ daylight_detector[power=15] run function rfic:power/generator/light/5
