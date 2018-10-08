@@ -1,0 +1,22 @@
+{
+	"values": [
+		"minecraft:lever",
+		"minecraft:redstone_wire",
+		"minecraft:redstone_torch",
+		"minecraft:stone_button",
+		"minecraft:oak_button",
+		"minecraft:spruce_button",
+		"minecraft:birch_button",
+		"minecraft:jungle_button",
+		"minecraft:acacia_button",
+		"minecraft:dark_oak_button",
+		"minecraft:redstone_block",
+		"minecraft:repeater",
+		"minecraft:comparator",
+		"minecraft:daylight_detector",
+		"minecraft:detector_rail",
+		"minecraft:observer",
+		"minecraft:trapped_chest",
+		"minecraft:tripwire_hook"
+	]
+}
