@@ -1,0 +1,22 @@
+{
+	"parent": "rf:foods/root",
+	"criteria": {
+		"freeze_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:carrot",
+            "nbt" :"{id:\"rf:freeze_carrot\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "freeze_carrot"
+    ]
+  ],
+  "rewards":{
+                "function": "rffu:food/freeze_carrot/main"
+        } 
+}

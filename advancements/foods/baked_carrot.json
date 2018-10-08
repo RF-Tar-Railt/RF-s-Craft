@@ -1,0 +1,22 @@
+{
+	"parent": "rf:foods/root",
+	"criteria": {
+		"baked_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:carrot",
+            "nbt" :"{id:\"rf:baked_carrot\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "baked_carrot"
+    ]
+  ],
+  "rewards":{
+                "function": "rffu:food/baked_carrot/main"
+        }
+}

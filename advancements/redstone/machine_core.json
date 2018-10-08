@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_hoe",
+			"nbt": "{id:\"minecraft:wooden_hoe\",Damage:1}"
+		},
+		"title":{
+			"translate": "advancements.rfcraft.mc.title"
+		},
+		"description": {
+			"translate": "advancements.rfcraft.mc.description"
+		},
+		"frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"parent": "rf:redstone/root",
+	"criteria": {
+		"machine_core": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item" :"minecraft:wooden_hoe",
+						"nbt" :"{id:\"rf:machine_core\"}"
+					}
+				]
+			}
+		}
+	}
+}

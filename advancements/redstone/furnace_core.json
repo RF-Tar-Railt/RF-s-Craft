@@ -1,14 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_shovel",
-			"nbt": "{id:\"minecraft:golden_shovel\",Damage:2}"
+			"item": "minecraft:wooden_hoe",
+			"nbt": "{id:\"minecraft:wooden_hoe\",Damage:2}"
 		},
 		"title":{
-			"translate": "advancements.rfcraft.fam.title"
+			"translate": "advancements.rfcraft.fc.title"
 		},
 		"description": {
-			"translate": "advancements.rfcraft.fam.description"
+			"translate": "advancements.rfcraft.fc.description"
 		},
 		"frame": "task",
         "show_toast": true,
@@ -17,13 +17,13 @@
 	},
 	"parent": "rf:redstone/machine_core",
 	"criteria": {
-		"farm_machine": {
+		"furnace_core": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item" :"minecraft:bat_spawn_egg",
-						"nbt" :"{id:\"rf:farm_machine\"}"
+						"item" :"minecraft:wooden_hoe",
+						"nbt" :"{id:\"rf:furnace_core\"}"
 					}
 				]
 			}

@@ -1,0 +1,22 @@
+{
+	"parent": "rf:foods/root",
+	"criteria": {
+		"freeze_melon_slice": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:melon_slice",
+            "nbt" :"{id:\"rf:freeze_melon_slice\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "freeze_melon_slice"
+    ]
+  ],
+  "rewards":{
+                "function": "rffu:food/freeze_melon/main"
+        } 
+}

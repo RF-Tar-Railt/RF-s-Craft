@@ -1,0 +1,22 @@
+{
+	"parent": "rf:foods/root",
+	"criteria": {
+		"cooked_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:apple",
+            "nbt" :"{id:\"rf:cooked_apple\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooked_apple"
+    ]
+  ],
+  "rewards":{
+                "function": "rffu:food/cooked_apple/main"
+        }
+}

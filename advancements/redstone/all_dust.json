@@ -1,0 +1,155 @@
+{
+  "parent": "rf:redstone/pulverizer",
+  "display": {
+    "icon": {
+      "item": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "advancements.rfcraft.all_dust.title"
+    },
+    "description": {
+      "translate": "advancements.rfcraft.all_dust.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+        {
+          "item": "minecraft:gunpowder",
+          "nbt" :"{id:\"rf:iron_dust\"}"
+        }
+      ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                {
+                  "item": "minecraft:glowstone_dust",
+                  "nbt" :"{id:\"rf:gold_dust\"}"
+                }
+              ]
+      }
+    },
+    "quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+                {
+                  "item": "minecraft:sugar",
+                  "nbt" :"{id:\"rf:quartz_dust\"}"
+                }
+              ]
+      }
+    },
+    "lead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:gunpowder",
+                  "nbt" :"{id:\"rf:lead_dust\"}"
+                }
+              ]
+      }
+    },
+    "zinc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:sugar",
+                  "nbt" :"{id:\"rf:zinc_dust\"}"
+                }
+              ]
+      }
+    },
+    "tin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:sugar",
+                  "nbt" :"{id:\"rf:tin_dust\"}"
+                }
+              ]
+      }
+    },
+    "tungsten": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:gunpowder",
+                  "nbt" :"{id:\"rf:tungsten_dust\"}"
+                }
+              ]
+      }
+    },
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:gunpowder",
+                  "nbt" :"{id:\"rf:carbon_dust\"}"
+                }
+              ]
+      }
+    },
+    "nickel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:gunpowder",
+                  "nbt" :"{id:\"rf:nickel_dust\"}"
+                }
+              ]
+      }
+    },
+    "niter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:sugar",
+                  "nbt" :"{id:\"rf:niter\"}"
+                }
+              ]
+      }
+    },
+    "sulphur": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:glowstone_dust",
+                  "nbt" :"{id:\"rf:sulphur\"}"
+                }
+              ]
+      }
+    },
+    "silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+                  "item": "minecraft:gray_dye",
+                  "nbt" :"{id:\"rf:silicon\"}"
+                }
+              ]
+      }
+    }
+  }
+}

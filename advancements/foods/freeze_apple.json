@@ -1,0 +1,22 @@
+{
+	"parent": "rf:foods/root",
+	"criteria": {
+		"freeze_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+            "item": {
+            "item": "minecraft:apple",
+            "nbt" :"{id:\"rf:freeze_apple\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "freeze_apple"
+    ]
+  ],
+  "rewards":{
+                "function": "rffu:food/freeze_apple/main"
+        } 
+}

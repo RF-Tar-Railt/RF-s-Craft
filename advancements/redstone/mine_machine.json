@@ -15,7 +15,7 @@
         "announce_to_chat": true,
         "hidden": false
 	},
-	"parent": "rf:redstone/root",
+	"parent": "rf:redstone/machine_core",
 	"criteria": {
 		"mine_machine": {
 			"trigger": "minecraft:inventory_changed",

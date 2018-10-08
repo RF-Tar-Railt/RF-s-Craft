@@ -2,28 +2,28 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:golden_shovel",
-			"nbt": "{id:\"minecraft:golden_shovel\",Damage:2}"
+			"nbt": "{id:\"minecraft:golden_shovel\",Damage:10}"
 		},
 		"title":{
-			"translate": "advancements.rfcraft.fam.title"
+			"translate": "advancements.rfcraft.cgm.title"
 		},
 		"description": {
-			"translate": "advancements.rfcraft.fam.description"
+			"translate": "advancements.rfcraft.cgm.description"
 		},
 		"frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
 	},
-	"parent": "rf:redstone/machine_core",
+	"parent": "rf:redstone/farm_machine",
 	"criteria": {
-		"farm_machine": {
+		"crop_get_machine": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"item" :"minecraft:bat_spawn_egg",
-						"nbt" :"{id:\"rf:farm_machine\"}"
+						"nbt" :"{id:\"rf:crop_get_machine\"}"
 					}
 				]
 			}
